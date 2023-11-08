@@ -1,0 +1,159 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: exo;
+}
+
+.nav {
+    background-color: #2a4da6;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: 0 !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    float: left;
+    background-color: transparent;
+    color: antiquewhite !important;
+    max-width: 65%;
+}
+.dropdown li{
+    position: relative;
+    float: left;
+}
+.dropdown a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: transparent;
+}
+.card-content-head {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    background-color: #255adfd2;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 1rem;
+}
+.card-content-head img { 
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+    align-items: left;
+    background-color: transparent;
+    height: auto;
+}
+.icone img{
+    width: 100%;
+}
+.icone {
+    max-width: 75px;
+    padding: 5px;
+}
+.sair {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 40px;
+}
+.sair img{
+    width: 40px;
+}
+.sair a{
+    color: #000000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.sair a:hover{
+    color: #f00;
+}
+.tooltip {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 100px;
+  }
+  div.tooltip span {
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    background-color: #000;
+    color: #000000;
+    padding: 5px 10px;
+  }
+  div.tooltip span:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+  }
+  div:hover.tooltip span {
+    visibility: visible;
+    opacity: 0.9;
+    top: 30px;
+    left: 0;
+    z-index: 999;
+  }
+.table{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-collapse:collapse;
+    border:solid 1px #c0c0c0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px
+}
+.table th,.table td{
+    text-align:left;
+    padding:8px;
+    border:solid 1px #c0c0c0
+}
+.table th{
+    color:#000080
+}
+.table tr:nth-child(odd){
+    background-color:#f7f7ff
+}
+.table>thead>tr{
+    background-color:#dde8f7!important
+}
+.tbtn{
+    border:0;
+    outline:0;
+    background-color:transparent;
+    font-size:13px;cursor:pointer
+}
+.toggler{
+    display:none
+}
+.toggler1{
+    display:table-row;
+}
+.table a{
+    color: #0033cc;
+}
+.table a:hover{
+    color: #f00;
+}
+.page-header{
+    background-color: #eee;
+}
