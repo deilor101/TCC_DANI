@@ -1,0 +1,16 @@
+{
+  "name": "lava-jato",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000c\u0000c\u0000_\u0000d\u0000a\u0000n\u0000i\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
