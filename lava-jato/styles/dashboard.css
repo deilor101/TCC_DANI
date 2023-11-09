@@ -39,20 +39,17 @@ body {
     list-style: none;
     align-items: center;
     background-color: #255adfd2;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
     padding: 1rem;
 }
-.card-content-head img { 
-    width: 12.5%;
-    display: flex;
-    margin: 0 auto;
-    align-items: left;
-    background-color: transparent;
-    height: auto;
-}
+
 .icone img{
     width: 100%;
+}
+
+.logo {
+    width: 12.5%;
 }
 .icone {
     max-width: 75px;
