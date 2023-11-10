@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 
-        <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-        <div>
-            
+        <div class="container-logo">
             <div class="card-content-head">
                 <div class="icone">
                     <img src="img/icone.png">
@@ -27,8 +26,10 @@
                     <img src="img/usuario.png">
                     <a href="index.html">Sair</a>
                 </div>
-                </div>
-            <div class="nav d-flex flex-row justify-content-around align-items-center">
+            </div>
+        </div>
+        <div class="container-nav">
+            <div class="nav d-flex flex-row justify-content-around align-items-center rounded">
                 <div class="dropdown">
                     <a class="nav-link active" aria-current="page" href="dashboard.html" >
                         Inicio
@@ -89,93 +90,98 @@
                         </ul>
                     </li>
                   </div>
-            </div>    
-            
-            </div>        
-            <div class="table">
-                <table>
-                    <tr>
-                        <th data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">Descrição</th>
-                        <th>Veículo Pequeno</th>
-                        <th>Veículo Médio</th>
-                        <th>Veículo Grande</th>
-                    </tr>
-                    <tr>
-                        <td>40,00</td>
-                        <td>50,00</td>
-                        <td>70,00</td>
-                    </tr>
-                    <tr>
-                        <td>Americana Detalhada</td>
-                        <td>100,00</td>
-                        <td>120,00</td>
-                        <td>150,00</td>
-                    </tr>
-                    <tr>
-                        <td>Lavagem Externa</td>
-                        <td>25,00</td>
-                        <td>30,00</td>
-                        <td>35,00</td>
-                    </tr>
-                    <tr>
-                        <td>Lavagem Interna</td>
-                        <td>25,00</td>
-                        <td>30,00</td>
-                        <td>35,00</td>
-                    </tr>
-                    <tr>
-                        <td>Lavagem Técnica de Motores</td>
-                        <td>50,00</td>
-                        <td>55,00</td>
-                        <td>60,00</td>
-                    </tr>
-                    <tr>
-                        <td>Aspiração Interna</td>
-                        <td>15,00</td>
-                        <td>15,00</td>
-                        <td>15,00</td>
-                    </tr>
-                    <tr>
-                        <td>Higienização Bancos</td>
-                        <td>150,00</td>
-                        <td>170,00</td>
-                        <td>200,00</td>
-                    </tr>
-                    <tr>
-                        <td>Higienização Bancos de Couro</td>
-                        <td>180,00</td>
-                        <td>200,00</td>
-                        <td>220,00</td>
-                    </tr>
-                    <tr>
-                        <td>Higienização Teto</td>
-                        <td>80,00</td>
-                        <td>100,00</td>
-                        <td>120,00</td>
-                    </tr>
-                    <tr>
-                        <td>Kit Preparação para Venda(completa)</td>
-                        <td>400,00</td>
-                        <td>450,00</td>
-                        <td>500,00</td>
-                    </tr>
-                    <tr>
-                        <td>Aplicação de Cera Carnaúba</td>
-                        <td>20,00</td>
-                        <td>20,00</td>
-                        <td>25,00</td>
-                    </tr>
-                    <tr>
-                        <td>Lavagem de Motocicleta</td>
-                        <td>30,00</td>
-                        <td>40,00</td>
-                        <td>50,00</td>
-                    </tr>
-                </table>
-            </head>
-            </div>
+            </div> 
         </div>
-        <script src="styles.js"></script>    
+            </div>  
+        <div class="container-table">  
+            
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Veículo Pequeno</th>
+                            <th>Veículo Médio</th>
+                            <th>Veículo Grande</th>
+                        </tr>
+                        <tr>
+                            <td  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">Americana Simples</td>
+                            <td>40,00</td>
+                            <td>50,00</td>
+                            <td>70,00</td>
+                        </tr>
+                        <tr>
+                            <td data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">Americana Detalhada</td>
+                            <td>100,00</td>
+                            <td>120,00</td>
+                            <td>150,00</td>
+                        </tr>
+                        <tr>
+                            <td>Lavagem Externa</td>
+                            <td>25,00</td>
+                            <td>30,00</td>
+                            <td>35,00</td>
+                        </tr>
+                        <tr>
+                            <td>Lavagem Interna</td>
+                            <td>25,00</td>
+                            <td>30,00</td>
+                            <td>35,00</td>
+                        </tr>
+                        <tr>
+                            <td>Lavagem Técnica de Motores</td>
+                            <td>50,00</td>
+                            <td>55,00</td>
+                            <td>60,00</td>
+                        </tr>
+                        <tr>
+                            <td>Aspiração Interna</td>
+                            <td>15,00</td>
+                            <td>15,00</td>
+                            <td>15,00</td>
+                        </tr>
+                        <tr>
+                            <td>Higienização Bancos</td>
+                            <td>150,00</td>
+                            <td>170,00</td>
+                            <td>200,00</td>
+                        </tr>
+                        <tr>
+                            <td>Higienização Bancos de Couro</td>
+                            <td>180,00</td>
+                            <td>200,00</td>
+                            <td>220,00</td>
+                        </tr>
+                        <tr>
+                            <td>Higienização Teto</td>
+                            <td>80,00</td>
+                            <td>100,00</td>
+                            <td>120,00</td>
+                        </tr>
+                        <tr>
+                            <td>Kit Preparação para Venda(completa)</td>
+                            <td>400,00</td>
+                            <td>450,00</td>
+                            <td>500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Aplicação de Cera Carnaúba</td>
+                            <td>20,00</td>
+                            <td>20,00</td>
+                            <td>25,00</td>
+                        </tr>
+                        <tr>
+                            <td>Lavagem de Motocicleta</td>
+                            <td>30,00</td>
+                            <td>40,00</td>
+                            <td>50,00</td>
+                        </tr>
+                        <!-- <script src="styles.js"></script>  -->
+                    </table>
+                </div>
+                
+            
+        </div>
+           
 </body>
     
     
