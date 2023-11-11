@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('img/fundo.png');
+    background-image: url('/lava-jato/img/fundo.png');
     font-family: exo;
 }
 .container-nav{
@@ -90,14 +90,14 @@ body {
     align-items: center;
     justify-content: center;
     border-collapse:collapse;
-    border:solid 1px #c0c0c0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:solid 1px #292929;
+    font-family:exo;
     font-size:12px
 }
 .table th,.table td{
     text-align:left;
     padding:8px;
-    border:solid 1px #c0c0c0
+    border:solid 1px #292929
 }
 .table th{
     color:#000080
