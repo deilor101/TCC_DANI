@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <title>Painel Principal</title>
     <link rel="stylesheet" href="styles/dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -93,8 +93,10 @@
             </div> 
         </div>
             </div>  
-        <div class="container-table">  
-            
+        <div class="container-table rounded">
+            <br>  
+            <h4 class="nome">Tabela de Preços</h4>
+            <br>
                 <div class="table">
                     <table>
                         <tr>
@@ -104,7 +106,7 @@
                             <th>Veículo Grande</th>
                         </tr>
                         <tr>
-                            <td  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">Americana Simples</td>
+                            <td data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">Americana Simples</td>
                             <td>40,00</td>
                             <td>50,00</td>
                             <td>70,00</td>

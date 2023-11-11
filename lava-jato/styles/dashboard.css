@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('/lava-jato/img/fundo.png');
+    background-image: url('../img/fundo.png');
+    background-size: cover;
     font-family: exo;
 }
 .container-nav{
@@ -81,11 +82,21 @@ body {
 .sair a:hover{
     color: #f00;
 }
+.container-table{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-collapse: collapse;
+    border: solid 2px rgba(134, 134, 134, 0.692);
+}
+.container-table h4{
+    text-align: center;
+}
 .table{
     width: 50%;
     display: flex;
     margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 0em;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -97,7 +108,7 @@ body {
 .table th,.table td{
     text-align:left;
     padding:8px;
-    border:solid 1px #292929
+    border:solid 1px #000000
 }
 .table th{
     color:#000080
