@@ -82,6 +82,9 @@ body {
 .sair a:hover{
     color: #f00;
 }
+.custom-tooltip {
+    width: 200px !important;
+  }
 .container-table{
     width: 75%;
     margin: 0 auto;
