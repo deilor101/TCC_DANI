@@ -85,6 +85,11 @@ body {
 .custom-tooltip {
     width: 200px !important;
   }
+.cualquer{
+    background-color: #f00 !important;
+    color: white !important;
+    width: 0px !important;
+}
 .container-table{
     width: 75%;
     margin: 0 auto;
