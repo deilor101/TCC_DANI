@@ -83,12 +83,9 @@ body {
     color: #f00;
 }
 .custom-tooltip {
-    width: 200px !important;
-  }
-.cualquer{
-    background-color: #f00 !important;
-    color: white !important;
-    width: 0px !important;
+    width: min-content !important;
+    width: max-content !important;
+    white-space: pre-line !important;
 }
 .container-table{
     width: 75%;
@@ -147,4 +144,11 @@ body {
 }
 .page-header{
     background-color: #eee;
+}
+.card{
+    background-color: #0047ab;
+    color: white;
+}
+.card img{
+    width: 3%;
 }
