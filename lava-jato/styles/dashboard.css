@@ -102,13 +102,14 @@ body {
     display: flex;
     margin: 0 auto;
     margin-top: 0em;
+    margin-bottom: 18px;
     text-align: center;
     align-items: center;
     justify-content: center;
     border-collapse:collapse;
     border:solid 1px #292929;
     font-family:exo;
-    font-size:12px
+    font: size 15px;
 }
 .table th,.table td{
     text-align:left;
@@ -151,4 +152,7 @@ body {
 }
 .card img{
     width: 3%;
+}
+.card-body img{
+    width: 2%;
 }
