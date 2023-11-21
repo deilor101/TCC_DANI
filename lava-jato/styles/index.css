@@ -1,7 +1,13 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #6b8bda;
+    /* padding: 0; */
+    /* margin: 0 auto; */
+    background-color: #89a0db;
+    height: 100vh;
+}
+.login{
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
 }
 .container-logo {
     display: flex;
@@ -15,16 +21,15 @@ body {
 .container-login{
     display: flex;
 }
-.logo {
+/* .logo {
     width: 500px;
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #255ADF;
-}
-.logo img {
-    width: 30%;
+} */
+ img{
+    width: 300px;
 }
 .card {
     background-color: rgb(255, 255, 255);
