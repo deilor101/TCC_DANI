@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Lava Jato/js"
+		},
+		{
+			"path": "../../../../Lava Jato/css"
+		}
+	],
+	"settings": {}
+}
