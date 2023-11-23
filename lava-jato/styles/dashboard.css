@@ -108,7 +108,7 @@ body {
     justify-content: center;
     border-collapse:collapse;
     border:solid 1px #292929;
-    font-family:exo;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
     font: size 15px;
 }
 .table th,.table td{
@@ -155,4 +155,13 @@ body {
 }
 .card-body img{
     width: 2%;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.search input{
+    padding: 5px;
+    outline: none;
 }
